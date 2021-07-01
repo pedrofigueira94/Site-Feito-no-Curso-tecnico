@@ -1,0 +1,320 @@
+body{
+ background-image: url("../imagens/fundo.jpg");
+ background-size:cover; 
+}
+*{
+	margin: 0;
+	padding: 0;
+}	
+#princ2{
+	height: 300px;
+	width: 1300px;
+	float: center;
+}
+#txt2{
+	margin-bottom: 15px;
+	margin-top: 15px;
+	color: #FFFFFF;
+	font-size: 45px;
+	text-align: center;
+	font-family: arial black;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right:20px;
+	padding-top: 20px;
+}	
+#txt{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	color: #FFFFFF;
+	font-size: 15px;
+	text-align: center;
+	font-family: arial black;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	padding-right:20px;
+	padding-top: 35px;
+	box-sizing: border-box;
+}	
+#imreds{
+	width: 27px;
+    height: 27px;
+    float: left;
+	border: 8px;
+    margin-right: 8px;
+	padding-top: 8px;
+	padding-bottom: 8px:
+}
+hr{
+	color: #363636;
+	background-color: #363636;
+	height: 5px;
+}
+p{
+	padding-left: 20px;
+	padding-right: 20px;
+	box-sizing: border-box;
+}	
+#band{
+	max-width: 300px; 
+	max-height: 300px;
+	padding: 15px;
+	float: left;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+#band2{
+	max-width: 320px;	
+	max-height: 300px;
+}
+#princ{
+	max-width: 1339px;
+	max-height: 500px;
+	float: center;
+}	
+princ{
+	max-width: 1339px;
+	max-height: 500px;
+	float: center;
+}	
+#txt3{
+	text-align: justify;
+	color: #FFFFFF;
+	font-size: 15px;
+	font-family: arial black;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+}	
+#txt1{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: #FFFFFF;
+	font-size: 20px;
+	text-align: center;
+	font-family: arial black;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right:20px;
+	padding-top: 20px;
+	box-sizing: border-box;
+}	
+#video{
+	max-width: 900px; 
+	max-height: 455px;
+	float: center;
+	padding: 20px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}	
+#nome{
+	color: #FFFFFF;
+	font-size: 10px;
+	font-family: arial;
+	text-align: left;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+}	
+#nome2{
+	color: #FFFFFF;
+	font-size: 12px;
+	font-family: arial;
+	text-align: left;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+}	
+#imreds2{
+	padding: 8px;
+	width: 27px;
+    height: 27px;
+    float: left;
+	border: 8px;
+    margin-right: 8px;
+	padding-top: 8px;
+	padding-bottom: 8px:
+}
+/*add resposividade */
+@media all and (max-width: 1300px){
+	main, nav, article, header, hr {
+    width: 100%;
+    height: auto;
+  }  
+	#menu{
+		width: 480px;
+		height: 290px;
+	}
+	#princ{
+	width: 100%;
+	height: auto;
+	}
+	#princ2{
+	width: 100%;
+	height: auto;
+	}
+	#txt2{
+	text-align: center;
+	width: 100%;
+	height: auto;
+	size: 480px;
+	}
+	#txt{
+	text-align: center;
+	width: 100%;
+	height: auto;
+	}
+	#txt1{
+	text-align: center;
+	width: 100%;
+	height: auto;	
+	}
+	#band{
+		width: 100%;
+		height: auto;
+	}
+	#band2{
+		width: 100%;
+		height: auto;
+	}
+	#video{
+		width: 100%;
+		height: auto;
+	}
+	#nome{
+		width: 100%;
+		height: auto;
+		text-align: center;
+	}
+	#nome2{
+		width: 100%;
+		height: auto;
+		text-align: center;
+	}
+	#imreds{
+	width: 48px;
+	height: 48px;
+	}
+}
+@media all and (max-width: 980px) {
+ main, nav, article, header, hr {
+    width: 100%;
+    height: auto;
+  }  
+	#menu{
+		width: 100%;
+		height: auto;
+	}
+	#princ{
+	width: 100%;
+	height: auto;
+	}
+	#princ2{
+	width: 100%;
+	height: auto;
+	}
+	#txt3{
+		width: 100%;
+		height: auto;
+	}
+	#txt2{
+	text-align: center;
+	width: 100%;
+	height: auto;
+	size: 480px;
+	}
+	#txt{
+	text-align: center;
+	width: 100%;
+	height: auto;
+	}
+	#txt1{
+	text-align: center;
+	width: 100%;
+	height: auto;	
+	}
+	#band{
+		width: 100%;
+		height: auto;
+	}
+	#band2{
+		width: 100%;
+		height: auto;
+	}
+	#video{
+		width: 100%;
+		height: auto;
+	}
+	#nome{
+		width: 100%;
+		height: auto;
+		text-align: center;
+	}
+	#nome2{
+		width: 100%;
+		height: auto;
+		text-align: center;
+	}
+	#imreds{
+	width: 48px;
+	height: 48px;
+	}
+}
+@media all and (max-width: 650px) {
+	
+	#princ{
+		width: 100%;
+		height: auto;
+		padding-top: 20px;	
+		box-sizing: border-box;
+	}	
+	#menu{//menu
+		width: 100%;
+		height: auto;
+		text-align: left;
+		padding-top: 20px;
+		font-size: 16px;
+		font-family: arial black;
+	}
+	main, nav, article, header {
+		width: 100%;
+		height: auto;
+		float: center;
+	}
+	#video{//videos
+		width: 150px;
+		height: 100px;
+		float: center;
+	}
+}
+@media all and (max-width: 440px) {
+	main, nav, article, section{
+	width: 100%;
+	height: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	float: center;
+	text-align: center;
+	}
+	#princ2{
+	width: 100%;
+	height: auto;
+	}
+	#princ{
+	width: 100%;
+	height: auto;
+	}
+
+	header{
+		width: 100%;
+		height: auto;
+		border: 8px;
+	 }
+	 footer{
+		padding-right: 5px;
+		padding-left: 5px;
+	 } 	 
+}

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<title>Formulario de pesquisa </title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" 
+href="stylesheet.css" media="screen" />
+<link rel="stylesheet" type="text/css"
+href="../css/estilo.css"/>
+<link rel="stylesheet" type="text/css"
+href="../css/menu.css"/>
+<link rel="shortcut icon" 
+type="image/x-icon" 
+href="../imagens/logo-ico.png">
+</head>
+<body>
+<header>
+	<p id="princ">
+		<img id="princ2" src="../imagens/image-princ4.jpg"/>
+	</p>
+</header>
+<hr/>
+<nav >
+			<ul id="menu">
+				<li><a href="../index.html" title="Início">Início</a></li>
+				<li><a href="./black-metal.html" title="black-metal">Página 2</a></li>
+				<li><a href="./death-metal.html" title="death-metal">Página 3</a></li>
+				<li><a href="./thrash-metal.html" title="thrash-metal">Página 4</a></li>
+				<li><a href="./industrial-metal.html" title="metal-industrial">Página 5</a></li>
+				<li><a href="./new-metal.html" title="new-metal">Página 6</a></li>
+				<li><a href="./glam-metal.html" title="glam-metal">Página 7</a></li>
+				<li><a href="./power-metal.html" title="power-metal">Página 8</a></li>					
+			</ul>
+</nav>
+<hr/>
+<article>
+<section>
+<form action="cadastro.php" method="post"/>
+<nav id="txt2">
+Formulário de pesquisa:
+</nav>
+<div id="txt">
+<label>Informe o seu Nome:</label>
+<input type="text" name="nome" required
+placeholder="Nome" />
+</div>
+<div id="txt">
+<label>Informe o seu Sobrenome:</label>
+<input type="text" name="sobrenome" required 
+placeholder="Sobrenome" />
+</div>
+<div id="txt">
+Sexo:
+<br/>
+<input type="radio" name="sexo" value="M" required />Masculino
+<input type="radio" name="sexo" value="F" required />Feminino
+</div>
+<div id="txt">
+<label>Informe o seu E-mail:</label>
+<input type="email" name="email" required
+placeholder="ex:nome@gmail.com"
+pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+title="O formato do e-mail de ser: nome@dominio.com " />
+</div>
+<div id="txt">
+<label>Crie um nome de usuário:</label>
+<input type="text" name="usuario" required 
+placeholder="Usuário" />
+</div>
+<div id="txt">
+<label>Crie uma senha:</label>
+<input type="password" name="senha" required 
+pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="A senha deve ter no mínimo
+8 caractéres, letra maiúscula, minúscula e número"
+placeholder="Senha"/>
+</div>
+<div id="txt">
+<label>Informe o seu celular:</label>
+<input type="tel" name="celular" required
+placeholder="Celular" pattern="[0-9]{11}" 
+title="O número deve ter 11 dígitos, contando com o DDD" />
+</div>
+<div id="txt">
+<label>Data de nascimento:</label>
+<input type="date" name="data" required />
+</div>
+<div id="txt">
+<label>Informe a sua Cidade:</label>
+<input type="text" name="cidade" required
+placeholder="Cidade" />
+</div>
+<div id="txt">
+<label>Informe o seu Endereço:</label>
+<input type="text" name="endereco" required
+placeholder="Endereço" />
+</div>
+					<div id="txt">
+					<label>Informe o seu Estado:</label>
+						<select name="estado" required />
+						<option selected="" value="">Selecione o Estado (UF)</option>
+						<option value="Acre">Acre</option>
+						<option value="Alagoas">Alagoas</option>
+						<option value="Amapá">Amapá</option>
+						<option value="Amazonas">Amazonas</option>
+						<option value="Bahia">Bahia</option>
+						<option value="Ceará">Ceará</option>
+						<option value="Distrito Federal">Distrito Federal</option>
+						<option value="Espírito Santo">Espírito Santo</option>
+						<option value="Goiás">Goiás</option>
+						<option value="Maranhão">Maranhão</option>
+						<option value="Mato Grosso">Mato Grosso</option>
+						<option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+						<option value="Minas Gerais">Minas Gerais</option>
+						<option value="Pará">Pará</option>
+						<option value="Paraíba">Paraíba</option>
+						<option value="Paraná">Paraná</option>
+						<option value="Pernambuco">Pernambuco</option>
+						<option value="Piauí">Piauí</option>
+						<option value="Rio de Janeiro">Rio de Janeiro</option>
+						<option value="Rio Grande do Sul">Rio Grande do Sul</option>
+						<option value="Rio Grande do Norte">Rio Grande do Norte</option>
+						<option value="Rondônia">Rondônia</option>
+						<option value="Roraima">Roraima</option>
+						<option value="Santa Catarina">Santa Catarina</option>
+						<option value="São Paulo">São Paulo</option>
+						<option value="Sergipe">Sergipe</option>
+						<option value="Tocantins">Tocantins</option>
+						</select>
+						</div>
+<div id="txt">
+<label>Qual o seu subgênero musical favorito dentro do gênero metal ?</label>
+<br/>
+<textarea name="genfav" rows="4" cols="30"></textarea />
+</div>
+<div id="txt">
+<label>Qual a sua musica favorita do gênero?</label>
+<br/>
+<textarea name="musicfav" rows="4" cols="30"></textarea />
+</div>
+<div id="txt">
+<label>Qual o seu artista ou banda favorito no gênero?</label>
+<br/>
+<textarea name="artfav" rows="4" cols="30"></textarea />
+</div>
+<div id="txt">
+<label>Melhor show que já assistiu?</label>
+<br/>
+<textarea name="showfav" rows="4" cols="30"></textarea />
+</div>
+<div id="txt">
+<label>Com qual idade começou a gostar do gênero?</label>
+<br/>
+<textarea name="idadgen" rows="4" cols="30"></textarea />
+</div>
+<div id="txt">
+<label>Quem ou o que te influenciou a gostar?</label>
+<br/>
+<textarea name="influencia" rows="4" cols="30"></textarea />
+</div>
+<div id="txt">
+<label>Qual o tipo de sentimento você sente ao ouvir uma musica do gênero?</label>
+<br/>
+<textarea name="sentimento" rows="4" cols="30"></textarea />
+</div>
+<div id="txt">
+					<label>Grau de satisfação do conteudo:</label>
+					<br/>
+						<input type="radio" name="pont" value="ruim">Ruim
+					<input type="radio" name="pont" value="mediano">Mediano
+					<input type="radio" name="pont" value="bom">Bom
+					<input type="radio" name="pont" value="otimo">Ótimo
+					</div>
+<div id="txt">
+<label>Nós diga o que achou do nosso conteúdo:</label>
+<br/>
+<textarea name="opiniao" rows="4" cols="30"></textarea />
+</div>
+<div id="txt">
+<label>Nos indique um contéudo que acha que faltou:</label>
+<br/>
+<textarea name="conteudofalt" rows="4" cols="30"></textarea />
+</div>
+<nav id="txt3">
+Criado em:
+</nav>
+<nav id="txt3">
+Data: 11/05/2021 – Terça - feira
+</nav>
+<nav id="txt3">
+Horario: 21:32:05
+</nav>
+<nav id="txt3">
+Passou por alterações em:
+</nav>
+<nav id="txt3">
+Data: 15/05/2021
+</nav>
+<nav id="txt3">
+Horario: 14:24:00
+</nav>
+<hr/>
+<nav id="nome">
+ Criado e Desenvolvido por: Pedro Rammé Figueira
+ </nav>
+<embed src="../musicas/formulario.mp3" autostart="true" loop="true" width="0" height="0"/>
+</article>
+</section>
+</body>
+</html>

@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+}	
+
+#menu, #menu ul{
+	
+	padding:0;
+	list-style:none;
+}
+#menu{
+	width:95%;
+	margin:15px auto;
+	border: 1px solid #CDC9C9;
+	background-image:linear-gradient(#444, #222);
+	border-radius:6px;
+	box-shadow:0 1px 1px #777;
+	
+}
+#menu:before, #menu:after{
+	content:" ";
+	display:table;
+}
+#menu:after{
+	clear:both;
+}
+#menu{
+	zoom:1
+}
+#menu li{
+	float: left;
+	position:relative;
+	padding: 15px;
+}
+#menu a{
+	float:left;
+	padding:12px 30px;
+	color:#A9A9A9;
+	text-transform:uppercase;
+	text-decoration:none;
+	
+}
+#menu li:hover >a{
+	color:#fafafa;
+	
+}
+#menu ul{
+	list-style: none;
+	position: relative;	
+	visibility:hidden;
+	position:absolute;
+	top:38px;
+	background-image:linear-gradient(#444, #111);
+	border-radius:4px;
+	
+}
+#menu li:hover>ul{
+	
+	visibility:visible;
+	
+}
+#menu ul a{
+	padding:10px;
+	width:130px;
+	display:block;
+	text-transform:none;
+}
+#menu ul a:hover{
+	
+	background-image:linear-gradient(#04acec, #0186ba);
+}
+#menu ul li{
+	width: 120px;
+	float: left;
+}	
+
+/*Adicionando coisas novas */
+
